@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         // .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.1.1"),
-        .package(url: "https://github.com/azerion/BlueStackSDK.git", branch: "feature/BLSTCK-1735-Set-up-github-repo-for-BlueStackSDK-without-individual-adapters"),
+        // .package(url: "https://github.com/azerion/BlueStackSDK.git", branch: "feature/BLSTCK-1735-Set-up-github-repo-for-BlueStackSDK-without-individual-adapters"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", .upToNextMajor(from: "11.13.0"))
     ],
     targets: [
@@ -23,7 +23,7 @@ let package = Package(
             dependencies: [
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 .target(name: "BlueStackGoogleAdapter", condition: .when(platforms: [.iOS])),
-                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
+                // .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
             ],
             path: "BlueStackGoogleAdapterWrapper"
         ),
