@@ -23,7 +23,7 @@ let package = Package(
             dependencies: [
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 .target(name: "BlueStackGoogleAdapter", condition: .when(platforms: [.iOS])),
-                // .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
+                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
             ],
             path: "BlueStackGoogleAdapterWrapper"
         ),
