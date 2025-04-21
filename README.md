@@ -12,7 +12,7 @@ Using BlueStackGoogleAdapter you will be able to show Google ads through BlueSta
 
 ## Requirements
 - Xcode 15.1
-- iOS: 12.2
+- iOS: 13
 
 ## Integrate BlueStackGoogleAdapter in your application project
 

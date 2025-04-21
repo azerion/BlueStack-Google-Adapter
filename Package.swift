@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "BlueStackGoogleAdapter",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "BlueStackGoogleAdapter",
@@ -13,8 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        // .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.1.1"),
-        .package(url: "https://github.com/azerion/BlueStackSDK.git", branch: "feature/BLSTCK-1735-Set-up-github-repo-for-BlueStackSDK-without-individual-adapters"),
+        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.1.4"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", .upToNextMajor(from: "11.13.0"))
     ],
     targets: [
