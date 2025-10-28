@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackGoogleAdapter'
-s.version = '5.3.0.0'
+s.version = '5.3.2.1'
 s.static_framework = true
 s.license = 'MIT'
 s.platform = :ios, '13.0'
