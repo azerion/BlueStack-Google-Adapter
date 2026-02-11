@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BlueStackGoogleAdapter
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+@_exported import BlueStackGoogleAdapter
+import BlueStackUtilities
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension BlueStackUtilities.Logger {
+  public static func warn(_ message: Swift.String, fileName: Swift.String = #fileID, functionName: Swift.String = #function, line: Swift.UInt = #line)
+  public static func debug(_ message: Swift.String, fileName: Swift.String = #fileID, functionName: Swift.String = #function, line: Swift.UInt = #line)
+  public static func error(_ message: Swift.String, fileName: Swift.String = #fileID, functionName: Swift.String = #function, line: Swift.UInt = #line)
+}
+@_inheritsConvenienceInitializers @objc(GoogleAdapterLogger) public class GoogleAdapterLogger : ObjectiveC.NSObject {
+  @objc public static func warn(_ message: Swift.String)
+  @objc public static func debug(_ message: Swift.String)
+  @objc public static func error(_ message: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
