@@ -1,0 +1,505 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BlueStackGoogleAdapter",
+    "printedName": "BlueStackGoogleAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackGoogleAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackGoogleAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoogleAdapterLogger",
+        "printedName": "GoogleAdapterLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackGoogleAdapter@objc(cs)GoogleAdapterLogger(cm)warn:",
+            "mangledName": "$s22BlueStackGoogleAdapter0cD6LoggerC4warnyySSFZ",
+            "moduleName": "BlueStackGoogleAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackGoogleAdapter@objc(cs)GoogleAdapterLogger(cm)debug:",
+            "mangledName": "$s22BlueStackGoogleAdapter0cD6LoggerC5debugyySSFZ",
+            "moduleName": "BlueStackGoogleAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackGoogleAdapter@objc(cs)GoogleAdapterLogger(cm)error:",
+            "mangledName": "$s22BlueStackGoogleAdapter0cD6LoggerC5erroryySSFZ",
+            "moduleName": "BlueStackGoogleAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoogleAdapterLogger",
+                "printedName": "BlueStackGoogleAdapter.GoogleAdapterLogger",
+                "usr": "c:@M@BlueStackGoogleAdapter@objc(cs)GoogleAdapterLogger"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BlueStackGoogleAdapter@objc(cs)GoogleAdapterLogger(im)init",
+            "mangledName": "$s22BlueStackGoogleAdapter0cD6LoggerCACycfc",
+            "moduleName": "BlueStackGoogleAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BlueStackGoogleAdapter@objc(cs)GoogleAdapterLogger",
+        "mangledName": "$s22BlueStackGoogleAdapter0cD6LoggerC",
+        "moduleName": "BlueStackGoogleAdapter",
+        "objc_name": "GoogleAdapterLogger",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(_:fileName:functionName:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BlueStackUtilities6LoggerC0aB13GoogleAdapterE4warn_8fileName08functionI04lineySS_S2SSutFZ",
+            "mangledName": "$s18BlueStackUtilities6LoggerC0aB13GoogleAdapterE4warn_8fileName08functionI04lineySS_S2SSutFZ",
+            "moduleName": "BlueStackGoogleAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:fileName:functionName:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5debug_8fileName08functionI04lineySS_S2SSutFZ",
+            "mangledName": "$s18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5debug_8fileName08functionI04lineySS_S2SSutFZ",
+            "moduleName": "BlueStackGoogleAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:fileName:functionName:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5error_8fileName08functionI04lineySS_S2SSutFZ",
+            "mangledName": "$s18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5error_8fileName08functionI04lineySS_S2SSutFZ",
+            "moduleName": "BlueStackGoogleAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BlueStackUtilities@objc(cs)Logger",
+        "mangledName": "$s18BlueStackUtilities6LoggerC",
+        "moduleName": "BlueStackUtilities",
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LoggerType",
+            "printedName": "LoggerType",
+            "usr": "s:18BlueStackUtilities10LoggerTypeP",
+            "mangledName": "$s18BlueStackUtilities10LoggerTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 240,
+      "length": 24,
+      "value": "\"BlueStackGoogleAdapter\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 9,
+      "value": "\"5.4.0.0\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2508,
+      "length": 7,
+      "value": "\"Debug\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2616,
+      "length": 7,
+      "value": "\"Error\""
+    }
+  ]
+}
