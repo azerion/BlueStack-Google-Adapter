@@ -16,8 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
+        "name": "MobileAdsUtilities",
+        "printedName": "MobileAdsUtilities",
         "declKind": "Import",
         "moduleName": "BlueStackGoogleAdapter"
       },
@@ -264,8 +264,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BlueStackUtilities6LoggerC0aB13GoogleAdapterE4warn_8fileName08functionI04lineySS_S2SSutFZ",
-            "mangledName": "$s18BlueStackUtilities6LoggerC0aB13GoogleAdapterE4warn_8fileName08functionI04lineySS_S2SSutFZ",
+            "usr": "s:18MobileAdsUtilities6LoggerC22BlueStackGoogleAdapterE4warn_8fileName08functionK04lineySS_S2SSutFZ",
+            "mangledName": "$s18MobileAdsUtilities6LoggerC22BlueStackGoogleAdapterE4warn_8fileName08functionK04lineySS_S2SSutFZ",
             "moduleName": "BlueStackGoogleAdapter",
             "static": true,
             "declAttributes": [
@@ -314,8 +314,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5debug_8fileName08functionI04lineySS_S2SSutFZ",
-            "mangledName": "$s18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5debug_8fileName08functionI04lineySS_S2SSutFZ",
+            "usr": "s:18MobileAdsUtilities6LoggerC22BlueStackGoogleAdapterE5debug_8fileName08functionK04lineySS_S2SSutFZ",
+            "mangledName": "$s18MobileAdsUtilities6LoggerC22BlueStackGoogleAdapterE5debug_8fileName08functionK04lineySS_S2SSutFZ",
             "moduleName": "BlueStackGoogleAdapter",
             "static": true,
             "declAttributes": [
@@ -364,8 +364,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5error_8fileName08functionI04lineySS_S2SSutFZ",
-            "mangledName": "$s18BlueStackUtilities6LoggerC0aB13GoogleAdapterE5error_8fileName08functionI04lineySS_S2SSutFZ",
+            "usr": "s:18MobileAdsUtilities6LoggerC22BlueStackGoogleAdapterE5error_8fileName08functionK04lineySS_S2SSutFZ",
+            "mangledName": "$s18MobileAdsUtilities6LoggerC22BlueStackGoogleAdapterE5error_8fileName08functionK04lineySS_S2SSutFZ",
             "moduleName": "BlueStackGoogleAdapter",
             "static": true,
             "declAttributes": [
@@ -377,9 +377,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@BlueStackUtilities@objc(cs)Logger",
-        "mangledName": "$s18BlueStackUtilities6LoggerC",
-        "moduleName": "BlueStackUtilities",
+        "usr": "c:@M@MobileAdsUtilities@objc(cs)Logger",
+        "mangledName": "$s18MobileAdsUtilities6LoggerC",
+        "moduleName": "MobileAdsUtilities",
         "declAttributes": [
           "ObjC"
         ],
@@ -394,8 +394,8 @@
             "kind": "Conformance",
             "name": "LoggerType",
             "printedName": "LoggerType",
-            "usr": "s:18BlueStackUtilities10LoggerTypeP",
-            "mangledName": "$s18BlueStackUtilities10LoggerTypeP"
+            "usr": "s:18MobileAdsUtilities10LoggerTypeP",
+            "mangledName": "$s18MobileAdsUtilities10LoggerTypeP"
           },
           {
             "kind": "Conformance",
@@ -478,7 +478,7 @@
       "kind": "StringLiteral",
       "offset": 353,
       "length": 9,
-      "value": "\"5.4.0.0\""
+      "value": "\"6.0.0.0\""
     },
     {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
