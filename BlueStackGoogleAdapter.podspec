@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackGoogleAdapter'
-s.version = '5.4.0'
+s.version = '5.4.1'
 s.static_framework = true
 s.license = 'MIT'
 s.platform = :ios, '13.0'
@@ -16,8 +16,8 @@ s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/s
 s.vendored_frameworks = "BlueStackGoogleAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
-s.dependency 'BlueStack-SDK', '>=5.4.0'
-s.dependency 'Google-Mobile-Ads-SDK', '>= 12.0.0', '<= 12.14.0'
+s.dependency 'BlueStack-SDK', '>= 5.4.0', '< 5.5.0'
+s.dependency 'Google-Mobile-Ads-SDK', '>= 13.0.0', '<= 13.3.0'
 
 s.pod_target_xcconfig =
 {
