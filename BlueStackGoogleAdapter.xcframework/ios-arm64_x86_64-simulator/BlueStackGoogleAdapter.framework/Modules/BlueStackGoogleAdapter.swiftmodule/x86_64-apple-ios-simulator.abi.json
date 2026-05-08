@@ -467,35 +467,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-google\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 24,
       "value": "\"BlueStackGoogleAdapter\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-google\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 353,
       "length": 9,
-      "value": "\"5.4.0.0\""
+      "value": "\"5.4.0.1\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-google\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 2398,
       "length": 9,
       "value": "\"Warning\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-google\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 2508,
       "length": 7,
       "value": "\"Debug\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-google\/BlueStackGoogleAdapter\/BlueStackGoogleAdapter\/Logger\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 2616,
       "length": 7,
