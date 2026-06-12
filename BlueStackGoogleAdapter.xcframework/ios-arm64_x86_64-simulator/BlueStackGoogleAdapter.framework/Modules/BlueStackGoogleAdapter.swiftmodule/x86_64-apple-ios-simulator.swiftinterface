@@ -5,7 +5,9 @@
 @_exported import BlueStackGoogleAdapter
 import BlueStackUtilities
 import Foundation
+import GoogleMobileAds
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -21,3 +23,41 @@ extension BlueStackUtilities.Logger {
   @objc override dynamic public init()
   @objc deinit
 }
+final public class PausableTimer {
+  public enum State {
+    case idle
+    case running
+    case paused
+    case fired
+    public static func == (a: BlueStackGoogleAdapter.PausableTimer.State, b: BlueStackGoogleAdapter.PausableTimer.State) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public var isActive: Swift.Bool {
+    get
+  }
+  final public var state: BlueStackGoogleAdapter.PausableTimer.State {
+    get
+  }
+  public init(timeout: Foundation.TimeInterval, queue: Dispatch.DispatchQueue = DispatchQueue.global(qos: .default), block: @escaping () -> Swift.Void)
+  final public func start()
+  final public func pause()
+  final public func resume()
+  final public func stop()
+  @objc deinit
+}
+@objc public protocol ForceCloseDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func onForceClose()
+  @objc func onFailedToForceClose(error: any Swift.Error)
+}
+@objc public class ForceCloseController : ObjectiveC.NSObject {
+  @objc weak public var delegate: (any BlueStackGoogleAdapter.ForceCloseDelegate)?
+  @objc public init(className: Swift.String, timeoutInSec: Foundation.TimeInterval)
+  @objc public func start()
+  @objc public func stop()
+  @objc deinit
+}
+extension BlueStackGoogleAdapter.PausableTimer.State : Swift.Equatable {}
+extension BlueStackGoogleAdapter.PausableTimer.State : Swift.Hashable {}
