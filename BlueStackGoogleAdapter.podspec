@@ -16,7 +16,7 @@ s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/s
 s.vendored_frameworks = "BlueStackGoogleAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
-s.dependency 'BlueStack-SDK', '>=6.0.0'
+s.dependency 'BlueStack-SDK', '>=6.1.0', '< 6.2.0'
 s.dependency 'Google-Mobile-Ads-SDK', '>= 13.0.0', '<= 13.5.0'
 
 s.pod_target_xcconfig =
