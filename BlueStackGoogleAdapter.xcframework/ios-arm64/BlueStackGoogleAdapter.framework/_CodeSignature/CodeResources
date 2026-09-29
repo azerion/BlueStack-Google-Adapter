@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qEs6bzXBnLmucRq/ncPpjDHnq30=
+		Q5pcVYqy9WIGqGYh08x5aAJ3FF8=
 		</data>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Al22Efrjh3Tbv2VLa1w+koKMOxs=
+		qnSOWfC/KAGguU4+DvoUSHWP+5A=
 		</data>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		0piiwfHLAYA5Jvvw8meDoCCTd0w=
+		JHfN6cYxyr7xag+dVp1Y2pf/++o=
 		</data>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0piiwfHLAYA5Jvvw8meDoCCTd0w=
+		JHfN6cYxyr7xag+dVp1Y2pf/++o=
 		</data>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mkIj8CCtTADlMLL7F2SAtB1P7+Q=
+		IwiSJP6ebJrUw7C94YtlIhzKOTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,22 +54,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Al22Efrjh3Tbv2VLa1w+koKMOxs=
+			qnSOWfC/KAGguU4+DvoUSHWP+5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			3xTWxV1JlxxXW0eC+HzsRPVO4TnNqkGehZmpppSaXlU=
+			XxOCYstQJHtpCMDGfroR04QaeKfyOhAmrS4Fn6YSsSg=
 			</data>
 		</dict>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0piiwfHLAYA5Jvvw8meDoCCTd0w=
+			JHfN6cYxyr7xag+dVp1Y2pf/++o=
 			</data>
 			<key>hash2</key>
 			<data>
-			VivGP1cuc7Yd93oVVT5R/MJ4BabaLcM1i2lmNCgk9X0=
+			RwX4GNjcAbi23h8QAL2Wnv+DMlociilvbaIxZIDVwxA=
 			</data>
 		</dict>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -87,22 +87,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0piiwfHLAYA5Jvvw8meDoCCTd0w=
+			JHfN6cYxyr7xag+dVp1Y2pf/++o=
 			</data>
 			<key>hash2</key>
 			<data>
-			VivGP1cuc7Yd93oVVT5R/MJ4BabaLcM1i2lmNCgk9X0=
+			RwX4GNjcAbi23h8QAL2Wnv+DMlociilvbaIxZIDVwxA=
 			</data>
 		</dict>
 		<key>Modules/BlueStackGoogleAdapter.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mkIj8CCtTADlMLL7F2SAtB1P7+Q=
+			IwiSJP6ebJrUw7C94YtlIhzKOTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			u51Lwx7JwjOVNeZeyCMR2wTSsGSENU21vvCrFG+TYD4=
+			kyaHR/9SWkKp7gfdc+WWOfijoLOV9Lr4dIdVX5aVopw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
