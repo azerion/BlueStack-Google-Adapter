@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackGoogleAdapter'
-s.version = '6.1.0'
+s.version = '6.1.1'
 s.static_framework = true
 s.license = 'MIT'
-s.platform = :ios, '13.0'
+s.platform = :ios, '15.0'
 s.summary = 'BlueStack Google mediation adapter'
 s.homepage = "https://developers.bluestack.app/"
 s.swift_version = '5'
@@ -14,7 +14,7 @@ s.source_files = ["BlueStackGoogleAdapter.xcframework/*/*/Headers/*.{h,m,swift}"
 s.source = { :git => 'https://github.com/azerion/BlueStack-Google-Adapter.git', :tag => "#{s.version}" }
 s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/supported-networks#google-mobile-ads'
 s.vendored_frameworks = "BlueStackGoogleAdapter.xcframework"
-s.ios.deployment_target = '13.0'
+s.ios.deployment_target = '15.0'
 
 s.dependency 'BlueStack-SDK', '>=6.1.0', '< 6.2.0'
 s.dependency 'Google-Mobile-Ads-SDK', '>= 13.0.0', '<= 13.5.0'
